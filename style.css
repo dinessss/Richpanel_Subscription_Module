@@ -1,0 +1,137 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: right;
+  width: 20%;
+  padding: 8px;
+}
+
+.headings {
+    float: left;
+    width: 20%;
+    padding: 8px;
+  }
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #0121ad;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+#frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background-color: #d6ddf9; 
+    padding: 50px;  
+}  
+
+#btn{  
+    color: #fff;  
+    background: #0121ad;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+
+.card{
+   
+    height:40%;
+     width: 40%;
+     display: center;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 10px;
+     margin-top: 235px;
+     margin-left: 500px;
+     background-color: white;
+    }
+
+
+    .txt {
+        padding: 10px;
+    }
+
+    .dropdown-button { 
+      background-color: #0000b3; 
+      color: white; 
+      padding: 16px; 
+      font-size: 16px; 
+      border: none; 
+  } 
+  .dropdown { 
+      position: relative; 
+      display: inline-block; 
+  } 
+  /* Dropdown Content (Hidden by Default) */ 
+  .dropdown-list { 
+      display: none; 
+      position: absolute; 
+      background-color: #f1f1f1; 
+      min-width: 160px; 
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+      z-index: 1; 
+  } 
+  /* Links inside the dropdown */ 
+  .dropdown-list a { 
+      color: black; 
+      padding: 12px 16px; 
+      text-decoration: none; 
+      display: block; 
+      font-family: verdana; 
+  } 
+  /* Change color of dropdown links on hover */ 
+  .dropdown-list a:hover { 
+      background-color: #ddd; 
+  } 
+  /* Show the dropdown list on hover */ 
+  .dropdown:hover .dropdown-list { 
+      display: block; 
+  } 
+  /* Change the background color of the dropdown button when the dropdown list is shown */ 
+  .dropdown:hover .dropdown-button { 
+      background-color: #6666ff; 
+  } 
